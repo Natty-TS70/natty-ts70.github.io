@@ -1,9 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite:400,700);
 body {
-  color: #555;
+  color: #595653;
   margin: 0;
+  background-color: #f7f6f4;
 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Special Elite', cursive;
 }
 #header {
   background-color: #00939b;
@@ -11,14 +12,14 @@ body {
   line-height: 150px;
 }
 #header a {
-  color: white;
+  color: #fff6ea;
   text-decoration: none;
 
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 #header a:hover {
-  color: #222
+  color: #353331
 }
 #header-title {
   display: block;
@@ -41,7 +42,7 @@ body {
   margin: 0 auto;
 }
 .post-container:nth-child(even) {
-  background-color: #f2f2f2
+  background-color: #fff9ef
 }
 .post, .about {
   max-width: 800px;
@@ -69,7 +70,7 @@ body {
   margin-left: 16px
 }
 .post-date {
-  color: #D2D2D2;
+  color: #d6cfc5;
 
   font-size: 14px;
   font-weight: bold;
@@ -78,32 +79,32 @@ body {
   letter-spacing: 0.1em;
 }
 h1, h2, h3, h4 {
-  clear: #333;
+  clear: #353331;
 }
 p {
   line-height: 1.5;
 }
 #footer {
-  background-color: #2f2f2f;
+  background-color: #353331;
   padding: 50px 0;
 }
 #footer h4 {
-  color: white;
+  color: #fff6ea;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 #footer p {
-  color: white;
+  color: #fff6ea;
 }
 a {
-  color: #1abc9c;
+  color: #00939b;
   text-decoration: none;
 }
 a:hover {
-  color: #F6A623;
+  color: #e8bd76;
 }
 .column {
-  min-width: 300px;
+  min-width: 246px;
   display: inline-block;
   vertical-align: top;
 }
